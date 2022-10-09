@@ -9,3 +9,10 @@ Basic Router Setup:
 7. set children routes
 8. set Links on the header components
 */
+
+/*
+Context API
+1. declare a context(createContext)
+2. set provider with value
+3. Use context in the place where you want to get the context.
+*/

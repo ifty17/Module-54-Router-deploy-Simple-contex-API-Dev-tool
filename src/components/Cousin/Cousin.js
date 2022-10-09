@@ -1,18 +1,18 @@
 import React from 'react';
-import Special from '../Special/Special';
+import Friend from '../Friend/Friend';
 
-const Myself = ({ house }) => {
+const Cousin = ({ house }) => {
   return (
     <div>
-      <h2>Myself</h2>
+      <h2>Cousin</h2>
       <p>
         <small>House: {house}</small>
       </p>
       <section>
-        <Special></Special>
+        <Friend></Friend>
       </section>
     </div>
   );
 };
 
-export default Myself;
+export default Cousin;
